@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-axios.defaults.baseURL = "http://localhost:5000/admin";
+axios.defaults.baseURL = "https://scam-backend-three.vercel.app/admin";
 axios.defaults.headers.post["Content-Type"] = "application/json";
 
 // Auth token setup
