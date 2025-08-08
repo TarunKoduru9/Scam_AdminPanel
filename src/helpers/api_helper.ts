@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-axios.defaults.baseURL = "https://scam-alert-pro-backend-nine.vercel.app/admin";
+axios.defaults.baseURL = "https://www.scamalertpro.in/admin";
 axios.defaults.headers.post["Content-Type"] = "application/json";
 
 // Auth token setup
